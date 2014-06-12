@@ -3,6 +3,73 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/vendor/assets/font
 @import "../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap.scss";
 // endbower
 
+#disclaimer {
+  padding-right: 50px;
+  color: red;
+  font-family:Courier, monospace;
+}
+
+#titleintro {
+  color: #FA9A50;
+  .comment {
+    color: #ccc;
+  }
+  font-family: Courier, monospace;
+}
+
+#aboutmeprofile {
+  font-family: 'Lucida Sans';
+  font-size: 20px;
+}
+
+.box {
+  font-family: 'Myriad Pro';
+  font-color: white;
+  position: relative;
+  display: inline-block;
+  color: white;
+  width: 250px;
+  height: 250px;
+  background-color: transparent;
+  float: left;
+  margin: 20px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/*used to center text vertically and horizontally*/
+.innerbox {
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+.outerbox {
+  display: table;
+}
+
+/*main pages*/
+#aboutmebox {
+  background-color: #FDFD96;
+  color: black; 
+}
+#linkedinbox {
+  background-color: darken(#779ECB, 5%);
+}
+#githubbox {
+  background-color: black;
+}
+#contactbox {
+  background-color: lighten(#FF7878, 10%);
+  color: black;
+}
+
+.contentcontainer {
+  margin-top: 50px;
+}
+
 .browsehappy {
   margin: 0.2em 0;
   background: #ccc;
@@ -12,8 +79,8 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/vendor/assets/font
 
 /* Space out content a bit */
 body {
-  padding-top: 20px;
   padding-bottom: 20px;
+  background-color: #f4f4f4
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
