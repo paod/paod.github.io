@@ -9,6 +9,23 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/vendor/assets/font
   font-family:Courier, monospace;
 }
 
+.coverpagebutton{
+  position: relative;
+  vertical-align: top;
+  width: 40%;
+  height: 80px;
+  margin:5% auto;
+  font-size: 26px;
+  text-align: center;
+  font-family: HelveticaNeue-Light, 'Helvetica Neue Light';
+  background-color: red;
+  color: white;
+  border: 0;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+
 #titleintro {
   color: #FA9A50;
   .comment {
@@ -28,8 +45,8 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/vendor/assets/font
   position: relative;
   display: inline-block;
   color: white;
-  width: 250px;
-  height: 250px;
+  width: 210px;
+  height: 210px;
   background-color: transparent;
   float: left;
   margin: 20px;
@@ -48,6 +65,20 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/vendor/assets/font
 }
 .outerbox {
   display: table;
+}
+
+.portfoliobox {
+  font-family: 'Myriad Pro';
+  font-color: white;
+  position: relative;
+  display: inline-block;
+  width: 800px;
+  height: 800px;
+  background-color: transparent;
+  float: left;
+  margin: 20px;
+  cursor: pointer;
+  border-radius: 5px;
 }
 
 /*main pages*/
@@ -142,7 +173,7 @@ body {
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
   .container {
-    max-width: 730px;
+    max-width: 760px;
   }
 
   /* Remove the padding we set earlier */
